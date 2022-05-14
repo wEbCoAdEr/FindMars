@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Find Mars</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Supermercado%20One">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="modal fade" id="gameOverModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header customModalHeader">
+                        <h5 class="modal-title customModalTitle">Game Over!!</h5>
+                    </div>
+                    <div class="modal-body customModalBody">
+                        <p class="modalScore">YOUR SCORE IS: <span class="modalScoreValue">0</span></p>
+                    </div>
+                    <div class="modal-footer customModalFooter">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success replayBtn">Replay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-between customRowInfo">
+        <div class="col-4 alignLeft">
+            <p>CHANCES LEFT: <span class="chanceValue">20</span></p>
+        </div>
+        <div class="col-4 alignRight">
+            <p>SCORE: <span class="scoreValue">0</span></p>
+        </div>
+    </div>
+    <div class="row customRow">
+
+        <div class="col-12 tableContainer">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td class="column holeImageColumn"><img src="images/hole.png" class="holeImage">
+                    </td>
+                    <td class="column holeImageColumn"><img src="images/hole.png" class="holeImage">
+                    </td>
+                    <td class="column holeImageColumn"><img src="images/hole.png" class="holeImage">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="column holeImageColumn"><img src="images/hole.png" class="holeImage">
+                    </td>
+                    <td class="column holeImageColumn"><img src="images/hole.png" class="holeImage">
+                    </td>
+                    <td class="column holeImageColumn"><img src="images/hole.png" class="holeImage">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="column holeImageColumn"><img src="images/hole.png" class="holeImage">
+                    </td>
+                    <td class="column holeImageColumn"><img src="images/hole.png" class="holeImage">
+                    </td>
+                    <td class="column holeImageColumn"><img src="images/hole.png" class="holeImage">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <button type="button" class="btn btn-success btn-lg btnContainer" id="startBtn">START</button>
+
+</div>
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
