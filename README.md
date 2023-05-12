@@ -18,7 +18,7 @@ Find Mars is a simple game where you have to find the hidden cat (Mars) from one
 
 ## Screenshots
 
-![Find Mars Game Screenshot](https://chat.openai.com/images/screenshot.png)
+![Find Mars Game Screenshot](https://github.com/wEbCoAdEr/FindMars/blob/main/images/ss2.png)
 
 ## Credits
 
